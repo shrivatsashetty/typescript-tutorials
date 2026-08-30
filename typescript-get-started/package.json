@@ -1,0 +1,28 @@
+{
+  "name": "typescript-get-started",
+  "version": "1.0.0",
+  "description": "Getting started with TypeScript for begginers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrivatsashetty/typescript-tutorials.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "node",
+    "ts"
+  ],
+  "author": "Shrivatsa Shetty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrivatsashetty/typescript-tutorials/issues"
+  },
+  "homepage": "https://github.com/shrivatsashetty/typescript-tutorials#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
