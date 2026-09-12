@@ -1,0 +1,1 @@
+{"version":3,"file":"IAddress.d.ts","sourceRoot":"","sources":["../../src/IAddress.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,OAAO,WAAW,QAAQ;IAC7B,IAAI,EAAE,MAAM,CAAC;IACb,GAAG,EAAE,MAAM,CAAC;IACZ,QAAQ,EAAE;QAAE,YAAY,EAAE,MAAM,CAAC;QAAC,YAAY,EAAE,MAAM,CAAA;KAAE,CAAC;CAC5D"}
