@@ -2,10 +2,10 @@ import type IAddress  from "./IAddress.js";
 
 export default class Developer {
 
-    /* If visibility modifiers not specified in constructor parameters, 
+    /* If properties are not assigned in the constructor
      * then we need to define the properties explicitly in the body of the class */
     // name: string;
-    // age: number;
+    // private age: number;
     // languages: string[];
 
     constructor(
@@ -13,7 +13,7 @@ export default class Developer {
         public readonly name: string, 
         
         // private property can only be accessed within the class
-        private age: number = 25, 
+        private age: number, 
 
         // protected property can be accessed within the class and it's derived classes
         protected address: IAddress,
