@@ -55,7 +55,7 @@ The type "flow" when using generics is reversed.
 ```ts
 //                  ↓──────────(1)────────┐
 function print<MessageType>(message: MessageType): MessageType {}
-//    
+//                  └─────────────────(2)───────────────↑ 
 ```
 
 > (1) The literal type of message is assigned as the type of MessageType generic; (2) The inferred MessageType generic type is used to annotate the return type of print().
